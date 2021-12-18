@@ -1,10 +1,20 @@
 .about h3 {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .about i {
   background-color: var(--blue);
   color: #fff;
-  padding: 20px;
+  padding: 1.5rem;
+  margin-bottom: 15px;
   border-radius: 50%;
+}
+
+.about {
+  padding: 45px 15px;
+}
+
+.about .fas {
+  font-size: 3rem;
 }
