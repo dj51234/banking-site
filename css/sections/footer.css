@@ -1,0 +1,32 @@
+footer {
+  height: 125px;
+  background: #333;
+}
+
+footer .icon-unit {
+  background-color: #444;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  position: relative;
+  cursor: pointer;
+}
+
+.social {
+  width: 30%;
+  justify-content: space-around;
+}
+
+.social a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  color: #fff;
+}
+
+.social .icon-unit:hover {
+  background-color: #222;
+}

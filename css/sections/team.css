@@ -1,0 +1,24 @@
+.team .section-padding {
+  padding-bottom: 0px;
+}
+
+.team-member {
+  width: 300px;
+  height: 300px;
+  flex-basis: 300px;
+}
+
+.team .flexbox img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-member {
+  margin: 20px 20px 70px;
+}
+
+.team-member h4 {
+  font-weight: 400;
+}

@@ -1,0 +1,13 @@
+.blog-feature {
+  height: 500px;
+}
+
+.blog-feature .column-1 {
+  background: url("../../images/home/blog.jpg") no-repeat center center/cover;
+}
+
+.blog-content h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}

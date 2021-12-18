@@ -1,0 +1,15 @@
+.contact {
+    height: 500px;
+}
+
+.contact-content {
+    
+}
+
+.contact .column-1 {
+    background: url("../../images/home/contact.jpg") no-repeat center center/cover;
+}
+
+.contact-form {
+    width: 100%;
+}
