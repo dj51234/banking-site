@@ -1,9 +1,17 @@
-.about h3 {
+.about-cards {
+  padding: 75px 15px;
+}
+
+.about-cards .icon-unit {
+  margin: 0 15px;
+}
+
+.about-cards h3 {
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.about i {
+.about-cards i {
   background-color: var(--blue);
   color: #fff;
   padding: 1.5rem;
@@ -11,10 +19,14 @@
   border-radius: 50%;
 }
 
-.about {
-  padding: 45px 15px;
+.about-cards .fas {
+  font-size: 3rem;
 }
 
-.about .fas {
-  font-size: 3rem;
+.about-results {
+  height: 500px;
+}
+
+.about-results .btn {
+  display: inline-block;
 }

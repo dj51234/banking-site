@@ -29,17 +29,25 @@
   color: #fff;
   background-color: var(--blue);
 }
+
 .btn-secondary {
   color: #fff;
   background-color: var(--green);
 }
+
 .btn-light {
   color: #333;
   background-color: #eee;
 }
+
 .btn-dark {
   color: #eee;
   background-color: #333;
+}
+
+.btn-hollow {
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .btn:focus {
@@ -51,10 +59,54 @@
   color: #333;
 }
 
-.flexbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.bg-blue {
+  color: #fff;
+  background-color: var(--blue);
 }
 
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flexbox-columns {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.split {
+  display: flex;
+  height: 100%;
+}
+
+.split .column {
+  flex: 1;
+}
+
+.column-1 {
+  background: url("../../images/home/people.jpg") no-repeat center center/cover;
+  width: 100%;
+}
+
+.column-2 .padding {
+  padding: 15px;
+}
+
+.column-2 h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.column-2 h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.column-2 p {
+  font-weight: 300;
+  margin-bottom: 25px;
+}
