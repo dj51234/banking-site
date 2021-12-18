@@ -1,14 +1,15 @@
 .about-cards .icon-unit {
   margin: 0 15px;
 }
+
 .about-results .column-1 {
-  background: url('../../images/home/people.jpg') no-repeat center center/cover
+  background: url("../../images/home/people.jpg") no-repeat center center/cover;
 }
+
 .about-cards h3 {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 
 .about-cards i {
   background-color: var(--blue);

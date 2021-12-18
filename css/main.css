@@ -8,6 +8,7 @@
 @import "./sections/team.css";
 @import "./sections/contact.css";
 @import "./sections/footer.css";
+@import "./sections/media-queries.css";
 
 * {
   box-sizing: border-box;
