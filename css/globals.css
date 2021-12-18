@@ -1,0 +1,56 @@
+/* VARS */
+
+:root {
+  --orange: #f87137;
+  --orange-hover: #fa7c46;
+  --blue: #02b0b0;
+  --blue-hover: #03c5c5;
+  font-size: 16px;
+}
+
+.push-to-top {
+  z-index: 10;
+}
+
+.text-primary {
+  color: var(--blue);
+}
+
+.text-secondary {
+  color: var(--blue);
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--blue);
+}
+.btn-secondary {
+  color: #fff;
+  background-color: var(--green);
+}
+.btn-light {
+  color: #333;
+  background-color: #eee;
+}
+.btn-dark {
+  color: #eee;
+  background-color: #333;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.bg-light {
+  background-color: #eee;
+  color: #333;
+}
+
+.flexbox {
+    display: flex;
+}

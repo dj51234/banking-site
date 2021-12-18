@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(17, 17, 17, 0.568);
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  padding: 0 25px;
+}
+
+.navbar .logo {
+  color: #fff;
+}
+
+.logo span {
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.logo i::after {
+  content: "";
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 5px 10px 0;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid var(--blue);
+}
+
+.navbar ul {
+  display: flex;
+}

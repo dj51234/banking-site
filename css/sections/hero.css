@@ -1,0 +1,47 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: url("../../images/home/hero-bg.jpg") center center;
+  object-fit: cover;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero-content {
+  padding: 15px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  transition: 0.2s;
+}
+
+.hero .btn:hover {
+  background-color: var(--blue-hover);
+}
+
+.hero .btn i {
+  display: inline-block;
+  margin-left: 5px;
+}
