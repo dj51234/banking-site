@@ -1,4 +1,4 @@
-@media (max-width: 750px) {
+@media (max-width: 990px) {
 
   .navbar {
     flex-direction: column;
@@ -62,5 +62,9 @@
 
   .social.flexbox {
     width: 85%;
+  }
+
+  .section-padding {
+      padding: 25px;
   }
 }

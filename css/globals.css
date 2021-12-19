@@ -59,6 +59,15 @@
   opacity: 0.8;
 }
 
+.btn-hollow-dark {
+  border: 2px solid #333;
+  color: #333;
+}
+
+.btn-hollow-dark:hover {
+  opacity: 0.8;
+}
+
 .btn:focus {
   outline: none;
 }
@@ -67,6 +76,12 @@
   background-color: #eee;
   color: #333;
 }
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
 
 .bg-blue {
   color: #fff;

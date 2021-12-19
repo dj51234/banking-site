@@ -1,0 +1,33 @@
+.blog-posts {
+  height: 500px;
+}
+
+.blog-img-1 {
+  background: url("../../images/blog/blog1.jpg") no-repeat center center/cover;
+}
+.blog-img-2 {
+  background: url("../../images/blog/blog2.jpg") no-repeat center center/cover;
+}
+.blog-img-3 {
+  background: url("../../images/blog/blog3.jpg") no-repeat center center/cover;
+}
+
+.blog-post h3 {
+  font-size: .8rem;  
+  line-height: 1.2rem;
+}
+.blog-post h2 {
+  margin-bottom: 10px; 
+  line-height: 1.2rem; 
+}
+.blog-post h4 {
+  margin-bottom: 10px; 
+  font-size: .8rem;
+  font-weight: 400; 
+}
+
+.blog-post .fa-user {
+  display: inline-block;
+  margin-right: 5px;
+}
+

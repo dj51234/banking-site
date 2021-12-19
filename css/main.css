@@ -9,6 +9,7 @@
 @import "./sections/contact.css";
 @import "./sections/footer.css";
 @import "./sections/media-queries.css";
+@import "./sections/blog-posts.css";
 
 * {
   box-sizing: border-box;
