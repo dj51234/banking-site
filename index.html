@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RealLending</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -12,6 +12,14 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/lightbox.min.js"></script>
+    <script defer src="./js/main.js"></script>
+    <title>RealLending</title>
   </head>
   <body>
     <!-- START nav  -->
@@ -24,10 +32,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#hero">Home</a></li>
           <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#info">Info</a></li>
           <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html#team">Team</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
@@ -37,7 +45,7 @@
     <!-- START main content -->
     <main>
       <!-- hero -->
-      <section class="hero">
+      <section id="hero" class="hero">
         <div class="hero-content push-to-top">
           <h1>Lending Done Right.</h1>
           <p>We Provide Competitive Lending Opportunities World-Wide</p>
@@ -57,24 +65,23 @@
               <i class="fas fa-map"></i>
               <h3>Stop Searching</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Possimus, rem?
+                On a neverending search for the best lending assistance around?
+                Your search stops here.
               </p>
             </div>
             <div class="icon-unit">
               <i class="fas fa-folder"></i>
               <h3>Lending Portfolio Assistance</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Possimus, rem?
+                From individuals to massive corporations, we've got your back.
               </p>
             </div>
             <div class="icon-unit">
               <i class="fas fa-suitcase"></i>
               <h3>On the Go Services</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Possimus, rem?
+                Even as a traveling business person, we provide the flexibility
+                that works best for you.
               </p>
             </div>
           </div>
@@ -90,9 +97,8 @@
                 <h3>Tired of not getting results?</h3>
                 <h2>Guaranteed Results</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-                  dicta! Explicabo, optio aut officiis numquam nisi esse
-                  voluptates facilis natus.
+                  We have over 500+ large clients that vouch for our world class
+                  services.
                 </p>
                 <div>
                   <a href="" class="btn btn-hollow">Results </a>
@@ -111,37 +117,53 @@
           <h4>Our experience speaks for itself</h4>
           <h2>Events</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-            soluta?
+            We treat each case with top of the line attention to detail and
+            solutions that get the job done.
           </p>
         </div>
         <div class="event-examples">
           <div class="grid">
             <div class="grid-unit">
-              <img src="images/cases/cases1.jpg" alt="" />
+              <a href="./images/cases/cases1.jpg" data-lightbox="events"
+                ><img loading="eager" src="./images/cases/cases1.jpg" alt=""
+              /></a>
             </div>
             <div class="grid-unit">
-              <img src="images/cases/cases2.jpg" alt="" />
+              <a href="./images/cases/cases2.jpg" data-lightbox="events"
+                ><img loading="eager" src="./images/cases/cases2.jpg" alt=""
+              /></a>
             </div>
             <div class="grid-unit">
-              <img src="images/cases/cases3.jpg" alt="" />
+              <a href="./images/cases/cases3.jpg" data-lightbox="events"
+                ><img loading="eager" src="./images/cases/cases3.jpg" alt=""
+              /></a>
             </div>
             <div class="grid-unit">
-              <img src="images/cases/cases4.jpg" alt="" />
+              <a href="./images/cases/cases4.jpg" data-lightbox="events"
+                ><img loading="eager" src="./images/cases/cases4.jpg" alt=""
+              /></a>
             </div>
           </div>
           <div class="grid">
             <div class="grid-unit">
-              <img src="images/cases/cases5.jpg" alt="" />
+              <a href="./images/cases/cases5.jpg" data-lightbox="events"
+                ><img loading="eager" src="./images/cases/cases5.jpg" alt=""
+              /></a>
             </div>
             <div class="grid-unit">
-              <img src="images/cases/cases6.jpg" alt="" />
+              <a href="./images/cases/cases6.jpg" data-lightbox="events"
+                ><img loading="eager" src="./images/cases/cases6.jpg" alt=""
+              /></a>
             </div>
             <div class="grid-unit">
-              <img src="images/cases/cases7.jpg" alt="" />
+              <a href="./images/cases/cases7.jpg" data-lightbox="events"
+                ><img loading="eager" src="./images/cases/cases7.jpg" alt=""
+              /></a>
             </div>
             <div class="grid-unit">
-              <img src="images/cases/cases8.jpg" alt="" />
+              <a href="./images/cases/cases8.jpg" data-lightbox="events"
+                ><img loading="eager" src="./images/cases/cases8.jpg" alt=""
+              /></a>
             </div>
           </div>
         </div>
@@ -155,11 +177,11 @@
           <div class="column column-2 flexbox-columns bg-blue">
             <div class="blog-content padding">
               <h4>October 15, 2021</h4>
-              <h2>Post 1</h2>
+              <h2>Kronos hack</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-                dicta! Explicabo, optio aut officiis numquam nisi esse
-                voluptates facilis natus.
+                A ransomware attack on one of the largest human resources
+                companies may impact how many employees get paid and track their
+                paid time off.
               </p>
               <div>
                 <a href="blog.html" class="btn btn-hollow">See Our Blog</a>
@@ -183,25 +205,25 @@
         <div class="flexbox">
           <div class="team-member">
             <img src="./images/team/person1.jpg" alt="" />
-            <h4>Bartholomew Spalding Jr.</h4>
+            <h4>Anna Masozi</h4>
             <h4>CEO</h4>
           </div>
           <div class="team-member">
-            <img src="./images/team/person2.jpg" alt="" />
-            <h4>Bartholomew Spalding Jr.</h4>
-            <h4>CEO</h4>
+            <img loading="eager" src="./images/team/person2.jpg" alt="" />
+            <h4>Levon Johnston</h4>
+            <h4>Vice President</h4>
           </div>
           <div class="team-member">
-            <img src="./images/team/person3.jpg" alt="" />
-            <h4>Bartholomew Spalding Jr.</h4>
-            <h4>CEO</h4>
+            <img loading="eager" src="./images/team/person3.jpg" alt="" />
+            <h4>Carina Aubrie</h4>
+            <h4>COO</h4>
           </div>
         </div>
       </section>
       <!-- END team -->
 
       <!-- START contact  -->
-      <section class="contact">
+      <section id="contact" class="contact">
         <div class="split">
           <div class="column column-1"></div>
           <div class="column column-2 flexbox-columns bg-light">

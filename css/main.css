@@ -10,6 +10,7 @@
 @import "./sections/footer.css";
 @import "./sections/media-queries.css";
 @import "./sections/blog-posts.css";
+@import "./lightbox.min.css";
 
 * {
   box-sizing: border-box;

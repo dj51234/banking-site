@@ -3,7 +3,7 @@
 }
 
 .blog-feature .column-1 {
-  background: url("../../images/home/blog.jpg") no-repeat center center/cover;
+  background: url("../../images/blog/blog3.jpg") no-repeat center center/cover;
 }
 
 .blog-content h2 {
@@ -11,4 +11,3 @@
   font-weight: 400;
   margin-bottom: 5px;
 }
-
